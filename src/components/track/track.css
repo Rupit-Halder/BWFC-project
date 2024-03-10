@@ -1,0 +1,144 @@
+.track_main{
+    background-color: #3734A9;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.fea13{
+    color: white;
+    font-family: "Manrope", sans-serif;
+    padding-top: 60px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.reew{
+    color: white;
+    font-family: "Manrope", sans-serif;
+    font-size: 55px;
+    font-weight: 700 ;
+    padding-top: 20px;
+}
+.wwwss123{
+    color: rgba(255, 255, 255, 0.579);
+    font-family: "Manrope", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.input12{
+    width: 400px;
+    margin-left: 80px;
+    margin-top: 20px;
+    height: 80px;
+    border-radius: 5px;
+    border: none;
+    font-family: "Manrope", sans-serif;
+    font-size: 20px;
+    color: #F2F3F4;
+    padding-left: 20px;
+    background-color: #bbb5e03e;
+    margin-top: 120px;
+}
+.input23{
+    width: 400px;
+    margin-left: 80px;
+    margin-top: 20px;
+    height: 80px;
+    border-radius: 5px;
+    border: none;
+    font-family: "Manrope", sans-serif;
+    font-size: 20px; 
+    color: #F2F3F4;
+    padding-left: 20px;
+    background-color: #bbb5e03e;
+}
+.gteewda{
+    display: inline-block;
+    padding: 25px 145px;
+    background-color: #FF7F5C;
+    border-radius: 5px;
+    color: white;
+    font-family: "Manrope", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+
+@media (max-width:767px){
+    .fea13 {
+        padding-top: 2px;
+        font-size: 14px;
+      
+    }
+    .reew {
+        font-size: 32px;
+        padding-top: 9px;
+    }
+    .wwwss123 {
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        padding-right: 0px;
+        padding-top: 11px;
+        padding-bottom: 0px;
+    }
+    .input12 {
+        width: 288px;
+        margin-left: 10px;
+        margin-top: 20px;
+        height: 62px;
+        font-size: 18px;
+    }
+    .input23 {
+        width: 288px;
+        margin-left: 10px;
+        margin-top: 20px;
+        height: 62px;
+        font-size: 18px;
+    }
+    .gteewda {
+        padding: 16px 96px;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+}
+
+
+@media (min-width:992px) and (max-width:1199px){
+    .fea13{
+        font-size: 14px;
+        font-weight: 800;
+    }
+    .reew{
+        font-size: 40px;
+    }
+    .wwwss123{
+        font-size: 16px;
+        font-weight: 600;
+        padding-right: 80px;
+    }
+    .input12 {
+        width: 350px;
+        margin-left: 50px;
+        margin-top: 120px;
+        height: 62px;
+        font-size: 20px;
+    }
+    .input23 {
+        width: 350px;
+        margin-left: 50px;
+        margin-top: 20px;
+        height: 62px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .gteewda {
+        padding: 20px 125px;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+}

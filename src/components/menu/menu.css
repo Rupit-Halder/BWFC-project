@@ -1,0 +1,112 @@
+.sign{
+    display: inline-block;
+    color: black;
+    font-family: "Manrope", sans-serif;
+    font-size: 16px !important;
+}
+.sign:hover{
+    color: #3734A9;
+    text-decoration: underline !important;
+}
+.start{
+    display: inline-block;
+    font-family: "Manrope", sans-serif;
+    padding: 10px 20px ;
+    background-color: #3734A9;
+    border-radius: 7px;
+    color: white;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.nav_right{
+    margin-left: -100px;
+}
+.pro{
+    font-family: "Manrope", sans-serif;
+    font-size: 18px !important;
+    padding-left: 40px !important;
+    color: black !important;
+}
+.pro:hover{
+    color: #3734A9 !important;
+}
+.drop{
+    font-size: 30px !important;
+    opacity: 0;
+}
+.pro:hover .drop{
+    opacity: 1;
+}
+nav{
+    padding: 30px 0px !important;
+ 
+}
+.logo{
+    width: 80px;
+}
+
+
+
+
+@media (max-width:767px){
+    nav{
+        text-align: center;
+    }
+   .start{
+    margin-left: 100px;
+   }
+   .sign{
+    display: block;
+    padding-left: 100px;
+    padding-top: 30px;
+   }
+   .navbar-toggler {
+    border: none !important;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none !important;
+}
+.navbar-toggler-icon {
+    width: 24px !important;
+    height: 24px !important;
+}
+}
+
+@media (min-width:768px) and (max-width:991px){
+    nav{
+        text-align: center;
+    }
+    .start{
+        margin-left: 100px;
+       }
+       .sign{
+        display: block;
+        padding-left: 100px;
+        padding-top: 30px;
+       }
+       .navbar-toggler {
+        border: none !important;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none !important;
+    }
+    .navbar-toggler-icon {
+        width: 24px !important;
+        height: 24px !important;
+    }
+}
+
+
+@media (min-width:992px) and (max-width:1199px){
+    .pro{
+        font-size: 16px !important;
+        padding-left: 10px !important;
+        font-weight: 600 !important;
+        margin-top: 8px;
+    }
+}

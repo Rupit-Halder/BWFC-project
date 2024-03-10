@@ -1,0 +1,141 @@
+.banner_main{
+   padding-top: 50px;
+}
+.manag{
+    font-size: 55px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    color: black;
+    margin-top: 90px;
+}
+.end{
+    font-family: "Manrope", sans-serif;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.58);
+    padding-top: 30px;
+    padding-right: 80px;
+}
+.banner_end .gettt{
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #3734A9;
+    border-radius: 40px;
+    color: white;
+    font-family: "Manrope", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.banner_end .ityytt{
+    display: inline-block;
+    color: #3734A9;
+    margin-left: 80px;
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.play{
+    color: #22D497;
+    font-size: 100px;
+    padding-right: 10px;
+}
+.banner_pic{
+    cursor: pointer;
+}
+.over{
+    padding-bottom: 30px;
+    font-size: 25px;
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+}
+
+
+
+
+@media (max-width:767px){
+    .manag {
+        font-size: 30px;
+        margin-top: -45px;
+    }
+    .end {
+        font-size: 16px;
+        padding-top: 10px;
+        padding-right: 0px;
+    }
+    .banner_end .gettt {
+        padding: 10px 19px;
+        font-size: 13px;
+    }
+    .banner_end .ityytt {
+        margin-left: 14px;
+        font-size: 14px;
+    }
+    .play {
+        font-size: 41px;
+        padding-right: 10px;
+    }
+    .banner_pic {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .over {
+        font-size: 19px;
+        line-height: 25px;
+    }
+    .imhhh{
+        margin-top: 20px;
+    }
+}
+
+
+
+@media (min-width:768px) and (max-width:991px){
+    .banner_main{
+        padding-top: 0px;
+     }
+     .imhhh{
+        margin-top: 0px;
+        padding-left: 40px;
+        padding-top: 40px
+    }
+    .banner_pic {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .manag{
+        margin-top: 20px;
+    }
+}
+
+
+@media (min-width:992px) and (max-width:1199px){
+    .banner_pic {
+        width: 100%;
+        margin-top: 20px;
+        height: 100%;
+    }
+    .manag{
+        margin-top: 60px;
+        font-size: 38px;
+    }
+    .end{
+        font-size: 17px;
+        padding-top: 10px;
+    }
+    .banner_end .gettt {
+        padding: 10px 19px;
+        font-size: 13px;
+    }
+    .banner_end .ityytt {
+        margin-left: 14px;
+        font-size: 14px;
+    }
+    .play {
+        font-size: 41px;
+        padding-right: 10px;
+        margin-left: 50px;
+    }
+    .over {
+        font-size: 19px;
+        line-height: 25px;
+    }
+}

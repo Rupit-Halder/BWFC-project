@@ -1,0 +1,115 @@
+.about-pic{
+    padding-top: 150px !important;
+    margin-left: -150px !important;
+}
+.fea{
+    padding-top: 170px !important; 
+    color: #3734A9;
+    font-family: "Manrope", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+.resss{
+   font-size: 55px;
+   font-family: "Manrope", sans-serif;
+   font-weight: 600;
+}
+.wwwss{
+    font-family: "Manrope", sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.458);
+    line-height: 40px;
+    padding-top: 20px;
+}
+.seea{
+    padding: 20px 40px;
+    background-color: #3734A9;
+    color: white;
+    border-radius: 7px;
+    font-weight: 500;
+    font-family: "Manrope", sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.about-pic{
+    cursor: pointer;
+}
+
+
+
+@media (max-width:767px){
+    .about-pic {
+        padding-top: 80px !important;
+        margin-left: 0px !important;
+        width: 100%;
+    }
+    .fea {
+        padding-top: 32px !important;
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .resss {
+        font-size: 28px;
+    }
+    .wwwss {
+        font-size: 17px;
+        line-height: 30px;
+        padding-top: 6px;
+    }
+    .seea {
+        padding: 10px 16px;
+        font-size: 14px;
+        margin-top: 10px;
+        font-weight: 600;
+        margin-bottom: 80px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .about-pic {
+        padding-top: 200px !important;
+        margin-left: 0px !important;
+        width: 100%;
+    }
+    .fea {
+        padding-top: 0px !important;
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .resss {
+        font-size: 48px;
+    }
+    .about_end{
+        margin-bottom: 100px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px){
+    .about-pic {
+        padding-top: 130px !important;
+        margin-left: 0px !important;
+        width: 110%;
+    }
+    .fea {
+        padding-top: 130px !important;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .resss {
+        font-size: 32px;
+    }
+    .wwwss {
+        font-size: 17px;
+        line-height: 30px;
+        padding-top: 6px;
+        font-weight: 700;
+    }
+    .seea {
+        padding: 10px 16px;
+        font-size: 14px;
+        margin-top: 10px;
+        font-weight: 600;
+        margin-bottom: 80px;
+    }
+}

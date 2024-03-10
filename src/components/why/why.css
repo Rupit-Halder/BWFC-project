@@ -1,0 +1,308 @@
+.main_box{
+    background-color: #F3F7FA;
+    height: 950px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    margin-top: 100px;
+    position: relative;
+}
+.dot{
+    position: absolute;
+    top: -40px;
+    left: 80px;
+}
+.finsnns{
+    padding-top: 50px;
+    font-family: "Manrope", sans-serif;
+    color: #3734A9;
+    font-size: 20px;
+    font-weight: 700;
+}
+.chosse{
+    font-family: "Manrope", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+.box1{
+    background-color: #FFFFFF;
+    height: 300px;
+    width: 500px;
+    padding-left: 40px;
+    padding-top: 60px;
+    padding-right: 60px;
+    margin-top: 80px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+.box1:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3) ;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.flex-11{
+    display: flex;
+}
+.nooo{
+    font-family: "Manrope", sans-serif;
+    font-size: 25px;
+    font-weight: 600; 
+    color: black;
+    margin-left: 20px;
+}
+.endss{
+    font-family: "Manrope", sans-serif;
+    color: #757095;
+    font-size: 20px;
+    margin-left: 18px;
+    line-height: 40px;
+    padding-top: 30px;
+}
+.box2{
+    background-color: #FFFFFF;
+    height: 300px;
+    width: 500px;
+    padding-left: 40px;
+    padding-top: 60px;
+    padding-right: 60px; 
+    margin-left: -100px;
+    margin-top: 80px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+.box2:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3) ;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.box3{
+    background-color: #FFFFFF;
+    height: 300px;
+    width: 500px;
+    padding-left: 40px;
+    padding-top: 60px;
+    margin-top: 50px; 
+    border-radius: 20px; 
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+.box3:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3) ;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.box4{
+    background-color: #FFFFFF;
+    height: 300px;
+    width: 500px;
+    padding-left: 40px;
+    padding-top: 60px;
+    padding-right: 60px; 
+    margin-top: 50px; 
+    margin-left: -100px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+.box4:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3) ;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+
+@media (max-width:767px){
+    .dot {
+        position: absolute;
+        top: -25px;
+        left: 30px;
+    }
+    .dotsss{
+        width: 50px;
+    }
+    .finsnns {
+        font-size: 16px;
+    }
+    .chosse {
+        font-size: 35px;
+    }
+    .nooo {
+        font-size: 19px;
+    }
+    .endss {
+        font-size: 14px;
+        line-height: 26px;
+        padding-top: 0px;
+    }
+    .box1 {
+        height: 220px;
+        width: 270px;
+        padding-left: 17px;
+        padding-top: 40px;
+        padding-right: 15px;
+        margin-left: 35px;
+        margin-top: 20px;
+    }
+    .box2{
+        height: 220px;
+        width: 270px;
+        padding-left: 17px;
+        padding-top: 40px;
+        padding-right: 15px;
+        margin-left: 35px;
+        margin-top: 20px;
+    }
+   
+    .box3{
+        height: 220px;
+        width: 270px;
+        padding-left: 17px;
+        padding-top: 40px;
+        padding-right: 15px;
+        margin-left: 35px;
+        margin-top: 20px; 
+    }
+    .box4{
+        height: 220px;
+        width: 270px;
+        padding-left: 17px;
+        padding-top: 40px;
+        padding-right: 15px;
+        margin-left: 35px;
+        margin-top: 20px; 
+    }
+    .main_box{
+        height: 1130px;
+    }
+}
+
+
+@media (min-width:576px) and (max-width:767px){
+    .box1 {
+        margin-left: 120px;
+    }
+    .box2{
+        margin-left: 120px;
+    }
+    .box3{
+        margin-left: 120px;
+    }
+    .box4{
+        margin-left: 120px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .box1 {
+        height: 200px;
+        width: 570px;
+        padding-left: 17px;
+        padding-top: 40px;
+        padding-right: 0px;
+        margin-left: 60px;
+        margin-top: 20px; 
+    }
+    .box2{
+        height: 200px;
+        width: 570px;
+        padding-left: 17px;
+        padding-top: 40px;
+        padding-right: 0px;
+        margin-left: 60px;
+        margin-top: 20px; 
+    }
+   
+    .box3{
+        height: 200px;
+        width: 570px;
+        padding-left: 17px;
+        padding-top: 40px;
+        padding-right: 0px;
+        margin-left: 60px;
+        margin-top: 20px; 
+    }
+    .box4{
+        height: 200px;
+        width: 570px;
+        padding-left: 17px;
+        padding-top: 40px;
+        padding-right: 0px;
+        margin-left: 60px;
+        margin-top: 20px; 
+    }
+   .endss{
+    padding-top: 20px;
+    line-height: 35px;
+   }
+   .main_box{
+    height: 1120px;
+   }
+}
+
+
+@media (min-width:992px) and (max-width:1199px){
+    .main_box{
+        height: 780px;
+       }
+    .box1 {
+        height: 235px;
+        width: 380px;
+        padding-left: 17px;
+        padding-top: 40px;
+        padding-right: 20px;
+        margin-left: -22px;
+        margin-top: 40px; 
+    }
+    .box2{
+        height: 235px;
+        width: 380px;
+        padding-left: 17px;
+        padding-top: 40px;
+        padding-right: 20px;
+        margin-left: -60px;
+        margin-top: 40px; 
+    }
+   
+    .box3{
+        height: 235px;
+        width: 380px;
+        padding-left: 17px;
+        padding-top: 40px;
+        padding-right: 20px;
+        margin-left: -22px;
+        margin-top: 40px; 
+    }
+    .box4{
+        height: 235px;
+        width: 380px;
+        padding-left: 17px;
+        padding-top: 40px;
+        padding-right: 20px;
+        margin-left: -60px;
+        margin-top: 40px; 
+    }
+    .finsnns{
+        font-size: 16px;
+        font-weight: 800;
+    }
+    .chosse{
+        font-size: 39px;
+        font-weight: 700;
+    }
+    .nooo{
+        font-size: 20px;
+    }
+    .endss{
+        font-size: 18px;
+        line-height: 32px;
+    }
+}

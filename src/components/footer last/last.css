@@ -1,0 +1,58 @@
+.last-main{
+    background-color: #1B1C31;
+    border-top: 2px solid white;
+    padding-bottom: 20px;
+}
+.copy{
+    color: #ffffff;
+    padding-top: 20px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.supportss{
+    color: #FFFFFF;
+    margin-left: 400px;
+    padding-top: 20px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+@media (max-width:767px){
+    .copy{
+        font-weight: 600;
+        font-size: 12px;
+    } 
+    .supportss{
+        margin-left: 0px;
+        font-weight: 500;
+        font-size: 13px;
+        padding-top: 0px;
+        padding-left: 65px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .copy{
+        font-weight: 600;
+        font-size: 14px;
+    } 
+    .supportss{
+        font-weight: 500;
+        font-size: 13px;
+        padding-top: 0px;
+       margin-left: 0px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px){
+    .copy{
+        font-size: 12px;
+    }
+    .supportss{
+        font-size: 13px;
+        margin-left: 250px;
+    }
+}

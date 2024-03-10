@@ -1,0 +1,209 @@
+.sadasd{
+    background-color: #F3F7FA !important;
+    border-radius: 30px !important;
+    margin-bottom: 100px;
+}
+.re{
+    font-size: 45px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    padding-right: 50px;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+.fea12{
+    padding-top: 100px ; 
+    color: #3734A9;
+    font-family: "Manrope", sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    padding-left: 80px;
+}
+.wwwss12{
+    font-family: "Manrope", sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.458);
+    line-height: 35px;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 50px;
+}
+.forrr{
+    padding-top: 100px ; 
+    color: #3734A9;
+    font-family: "Manrope", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 130px;
+}
+.input_main .input1{
+    width: 400px;
+    margin-left: 80px;
+    margin-top: 20px;
+    height: 80px;
+    border-radius: 5px;
+    border: none;
+    font-family: "Manrope", sans-serif;
+    font-size: 20px;
+    color: black;
+    padding-left: 20px;
+
+}
+.input_main1 .input2{
+    width: 400px;
+    margin-left: 80px;
+    margin-top: 20px;
+    height: 80px;
+    border-radius: 5px;
+    border: none;
+    font-family: "Manrope", sans-serif;
+    font-size: 20px; 
+    color: black;
+    padding-left: 20px;
+}
+.getttyy .gtee{
+    font-family: "Manrope", sans-serif;
+    padding: 20px 145px;
+    background-color: #FF7F5C;
+    margin-left: 80px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+
+@media  (max-width:767px){
+    .fea12 {
+        padding-top: 58px;
+        font-size: 17px;
+        font-weight: 700;
+        padding-left: 0px;
+    }
+    .re {
+        font-size: 24px;
+        padding-right: 0px;
+        padding-left: 0px;
+        padding-top: 6px;
+    }
+    .wwwss12 {
+        font-size: 16px;
+        line-height: 26px;
+        padding-top: 7px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .forrr {
+        padding-top: 20px;
+        font-size: 20px;
+        padding-left: 45px;
+    }
+    .input_main .input1 {
+        width: 261px;
+        margin-left: 10px;
+        height: 50px;
+        font-size: 14px;
+    }
+    .input_main1 .input2 {
+        width: 261px;
+        margin-left: 10px;
+        height: 50px;
+        font-size: 14px;
+    }
+    .getttyy .gtee {
+        padding: 16px 85px;
+        margin-left: 10px;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    .sadasd {
+        margin-bottom: 50px;
+        margin-left: 15px;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:991px){
+    .forrr {
+        padding-top: 20px;
+        font-size: 25px;
+        padding-left: 220px;
+    }
+    .input_main .input1 {
+        width: 400px;
+        margin-left: 140px;
+        height: 80px;
+        font-size: 18px;
+    }
+    .input_main1 .input2 {
+        width: 400px;
+        margin-left: 140px;
+        height: 80px;
+        font-size: 18px;
+    }
+    .getttyy .gtee {
+        padding: 30px 148px;
+        margin-left: 140px;
+        font-weight: 700;
+        font-size: 19px;
+    }
+}
+
+
+@media (min-width:992px) and (max-width:1199px){
+    .fea12 {
+        padding-top: 100px;
+        font-size: 16px;
+        font-weight: 800;
+        padding-left: 60px;
+    }
+    .re {
+        font-size: 40px;
+        padding-right: 0px;
+        padding-top: 20px;
+        padding-left: 60px;
+    }
+    .wwwss12 {
+        font-size: 18px;
+        line-height: 26px;
+        padding-top: 20px;
+        padding-left: 60px;
+        padding-right: 0px;
+        font-weight: 600;
+    }
+    .input_main .input1 {
+        width: 320px;
+        margin-left: 50px;
+        height: 70px;
+        font-size: 16px;
+    }
+    .input_main1 .input2 {
+        width: 320px;
+        margin-left: 50px;
+        height: 70px;
+        font-size: 16px;
+    }
+    .getttyy .gtee {
+        padding: 20px 110px;
+        margin-left: 50px;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .sadasd {
+        margin-bottom: 50px;
+        margin-left: 15px;
+    }
+    .forrr {
+        padding-top: 120px;
+        font-size: 23px;
+        padding-left: 95px;
+        font-weight: 600;
+    }
+    .sadasd {
+        margin-bottom: 50px;
+        margin-left: 2px;
+    }
+}
